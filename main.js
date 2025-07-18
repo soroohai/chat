@@ -13,7 +13,7 @@ async function sendMessage() {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        Authorization: `Bearer YOUR_OPENAI_API_KEY`
+        Authorization: `Bearer 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`
       },
       body: JSON.stringify({
         model: "gpt-4",
